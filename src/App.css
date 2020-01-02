@@ -1,0 +1,63 @@
+.containerMovies{
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 25px;
+}
+.containerMovie{
+  border: 2px solid #000;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  flex-direction: column;
+}
+.film img{
+  width: 150px;
+  border-radius: 5px 5px 0 0;
+}
+.addListMovies{
+  font-size: 56px;
+  cursor: pointer;
+}
+.film {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  justify-content: center;
+}
+.bouttonmodal button{
+  background: none;
+  border: none;
+}
+.bouttonmodal{
+  width: 160px;
+  display: flex;
+  justify-content: center;
+}
+.imgFilmsMovies{
+  position: relative;
+  min-height: 225px;
+  width: 150px;
+}
+.rateMovies{
+  position: absolute;
+  right: 5px;
+  top: 0;
+}
+.filmsContainer{
+  display: flex;
+  flex-wrap: wrap;
+}
+.spinnerLoad{
+  justify-content: center;
+}
+.bottomListMovies{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 10px;
+}
